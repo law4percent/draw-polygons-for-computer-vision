@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polygon Drawer</title>
+  
+  <!-- Include CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h2>Draw Polygons on Canvas</h2>
+  <button id="toggleModeBtn">Switch to Dark Mode</button>
+
+  <!-- Label for file input -->
+  <label for="fileInput">Upload Video or Image:</label>
+  <input type="file" id="fileInput" accept="image/*,video/*">
+
+  <div class="dimension-inputs">
+    <label for="canvasWidth">Width:</label>
+    <input type="number" id="canvasWidth" value="1280" min="100">
+    <label for="canvasHeight">Height:</label>
+    <input type="number" id="canvasHeight" value="800" min="100">
+    <button id="resizeBtn">Resize Canvas</button>
+  </div>
+
+  <div class="dimension-inputs">
+    <label for="maxZones">Max Zones:</label>
+    <input type="number" id="maxZones" value="5" min="1">
+  </div>
+
+  <canvas id="canvas" width="1280" height="800"></canvas>
+
+  <div class="instruction">
+    <p>Click on the canvas to select points for the polygon.</p>
+    <p>Press or click the corresponding button to perform actions.</p>
+    <p>Zones Created: <span id="zoneCount">0</span></p>
+  </div>
+
+  <div class="button-container">
+    <button id="closeBtn">Close Polygon (C)</button>
+    <button id="saveBtn">Save Zone (S)</button>
+    <button id="undoBtn">Undo Last Point (U)</button>
+    <button id="quitBtn">Quit/Reset (Q)</button>
+  </div>
+
+  <div class="button-container">
+    <label for="zoneSelect">Select Zone to Delete:</label>
+    <select id="zoneSelect">
+      <option value="">Select a zone...</option>
+    </select>
+    <button id="deleteZoneBtn">Delete Selected Zone</button>
+  </div>
+
+  <button id="downloadBtn">Download Zones</button>
+
+  <div id="coordinates">X: 0, Y: 0</div>
+
+  <!-- Include js -->  
+  <script src="script.js"></script>
+  
+</body>
+</html>
