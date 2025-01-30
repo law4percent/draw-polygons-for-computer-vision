@@ -1,4 +1,4 @@
-# Polygon Drawer: A Tool for Computer Vision Engineers & Students
+# Polygon Drawer: A Tool for Computer Vision
 
 ## Overview
 
@@ -68,5 +68,25 @@ Once you've drawn and saved your polygons, you can download the data in the foll
     1: [(200, 250), (400, 250), (400, 350), (200, 350)]
 
 
-## DEMO
+### How to Draw Polygons
 
+1. Upload your image or video to the tool. Set the frame dimensions. And set limit for number of zones.
+![image](https://github.com/user-attachments/assets/556b1752-db57-4546-bf0a-73f6ca8f033b)
+
+
+2. Click on the canvas to draw your polygon by selecting points on the image. Once you've drawn your polygon, click "Save Zone" to store the polygon's coordinates. You can delete or modify the polygon as needed.
+![image](https://github.com/user-attachments/assets/ccb479b5-479e-4f94-a233-8e7af1b7bde4)
+
+
+3. When finished, click "Download Zones" to export your polygon data in a usable format for computer vision tasks.
+
+![image](https://github.com/user-attachments/assets/31a554a2-db8b-44f8-800f-32e2f6e8b35b)
+
+
+This sample image demonstrates how you can draw polygons on an image or video frame to annotate specific areas for tasks like object detection or segmentation.
+
+
+## Sample utilization
+![image](https://github.com/user-attachments/assets/cd85acda-4ed5-4be7-b345-ff7e53fc8353)
+
+⚠️ Ensure that the frame dimensions match the dimensions of the frame in which the zones were created when using the zones.
