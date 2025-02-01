@@ -1,4 +1,3 @@
-
 let points = [];
 let entryCounter = 0;
 let maxZones = 5;
@@ -187,16 +186,18 @@ function resetCanvas() {
 }
 
 function downloadZones() {
-    const zonesText = zonesData.map(zone => {
-    const formattedPoints = zone.points.map(([x, y]) => `(${x}, ${y})`).join(', ');
-    return `${zone.id}: [${formattedPoints}]`;
-    }).join('\n');
+    const zonesText = `zones: \n${zonesData.map((zone, index) => {
+        const formattedPoints = zone.points.map(([x, y]) => `(${x}, ${y})`).join(', ');
+        return `    ${zone.id}: [${formattedPoints}]`;
+    }).join('\n')}\n\nnumber_of_zone: ${zonesData.length}\nframe_width: ${canvas.width}\nframe_height: ${canvas.height}`;
+
     const blob = new Blob([zonesText], { type: 'text/plain' });
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
-    link.download = 'zones.txt';
+    link.download = 'data.txt';
     link.click();
 }
+
 
 // Event listeners
 downloadBtn.addEventListener('click', downloadZones);
