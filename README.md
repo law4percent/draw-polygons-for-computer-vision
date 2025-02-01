@@ -54,7 +54,7 @@ This format is easy to integrate into your computer vision models for training p
 
 ## Please Comment or Add Suggestions
 
-We would love to hear your thoughts! If you have any suggestions for new features, improvements, or ideas for how this tool can be more helpful, please feel free to leave a comment or submit a pull request. Your feedback will help improve this tool for everyone!
+I would love to hear your thoughts! If you have any suggestions for new features, improvements, or ideas for how this tool can be more helpful, please feel free to leave a comment or submit a pull request. Your feedback will help improve this tool for everyone!
 
 ## Contributing
 
