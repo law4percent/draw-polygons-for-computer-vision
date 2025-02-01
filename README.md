@@ -4,6 +4,9 @@
 
 The **Polygon Drawer** is an interactive web-based tool designed to help computer vision engineers and students easily annotate images or video frames by creating polygonal zones. These annotated zones are saved in a structured format that is easy to use in machine learning tasks such as object detection and image segmentation. The tool allows you to draw polygons, save them as zones, and download the data in a format ready for training computer vision models.
 
+## Live Server
+https://law4percent.github.io/draw-polygons-for-computer-vision/
+
 ## Features
 
 - **Draw Polygons**: Click on the canvas to select points and create polygons.
@@ -68,7 +71,7 @@ Once you've drawn and saved your polygons, you can download the data in the foll
     1: [(200, 250), (400, 250), (400, 350), (200, 350)]
 
 
-### How to Draw Polygons
+## How to Draw Polygons
 
 1. Upload your image or video to the tool. Set the frame dimensions. And set limit for number of zones.
 ![image](https://github.com/user-attachments/assets/556b1752-db57-4546-bf0a-73f6ca8f033b)
