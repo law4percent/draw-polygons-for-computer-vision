@@ -7,15 +7,21 @@ The **Polygon Drawer** is an interactive web-based tool designed to help compute
 ## Live Server
 https://law4percent.github.io/draw-polygons-for-computer-vision/
 
-## Features
+## Key Features 🎨
+- Draw Polygons: Effortlessly create polygons by clicking to select points on the canvas.
+- Manage Zones: Save, close, or undo your polygon drawings with ease.
+- Canvas Resizing: Dynamically adjust the canvas to match your project’s requirements.
+- Image/Video Upload: Seamlessly upload and display images or videos on the canvas for annotation.
+- Mode Switching: Switch between light and dark modes to suit your personal preference.
+- Zone Deletion: Easily remove previously drawn zones using a simple dropdown list.
+- Download Data: Export your polygon zone data in a clean, text-based format for easy use.
 
-- **Draw Polygons**: Click on the canvas to select points and create polygons.
-- **Manage Zones**: Save, close, or undo polygon drawings.
-- **Canvas Resizing**: Dynamically resize the canvas to fit specific needs.
-- **Image/Video Upload**: Upload and display images or videos on the canvas for annotation.
-- **Mode Switching**: Toggle between light and dark modes for improved user preference.
-- **Zone Deletion**: Delete previously drawn zones via a dropdown list.
-- **Download Data**: Export polygon zone data in a simple, usable text format.
+## 🖥️ Keyboard Shortcuts for a faster workflow:
+- Close Polygon (C)
+- Save Zone (S)
+- Undo Last Point (U)
+- Quit/Reset (Q)
+
 
 ## Use Case for Computer Vision
 
@@ -27,8 +33,6 @@ This tool is ideal for **computer vision engineers and students** who need to ma
 This format is easy to integrate into your computer vision models for training purposes.
 
 ## Benefits for Computer Vision Projects
-
-- **Quick Data Collection**: Collect polygonal annotations from images or videos, which are ready to be used for training or testing computer vision models.
 - **Customizable and Easy to Use**: Resize the canvas, upload images or videos, and switch between light and dark mode to suit your preferences.
 - **Downloadable Data**: Download the zone data as plain text, ready for use in machine learning models without additional data wrangling.
 - **Ideal for Research & Education**: Perfect for both professionals and students in computer vision, allowing for easy annotation and zone management.
