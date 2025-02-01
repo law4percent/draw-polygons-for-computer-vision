@@ -59,10 +59,6 @@ We welcome contributions to improve this tool! If you have suggestions for new f
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-e crucial for training models in the following computer vision tasks:
-
-- **Object Detection**: Annotate areas of interest, such as objects in images, that the model will learn to detect.
-- **Image Segmentation**: Annotate more complex, irregular shapes to train segmentation models that segment the image into meaningful regions.
 
 ## Example Data Format
 
