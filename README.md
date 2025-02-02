@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Polygon Drawer** is an interactive web-based tool designed to help computer vision engineers and students easily annotate images or video frames by creating polygonal zones. These annotated zones are saved in a structured format that is easy to use in machine learning tasks such as object detection and image segmentation. The tool allows you to draw polygons, save them as zones, and download the data in a format ready for training computer vision models.
+This **Polygon Drawer** a web-based tool designed to help computer vision engineers and students label images or video frames by drawing polygons around specific areas. You can create these polygons, save them as "zones," and then download the data in a simple format that's easy to work with. It's a handy way to annotate images or video for projects.
 
 ## Live Server
 https://law4percent.github.io/draw-polygons-for-computer-vision/
@@ -21,16 +21,6 @@ https://law4percent.github.io/draw-polygons-for-computer-vision/
 - Save Zone (S)
 - Undo Last Point (U)
 - Quit/Reset (Q)
-
-
-## Use Case for Computer Vision
-
-This tool is ideal for **computer vision engineers and students** who need to manually annotate polygonal zones on images or video frames. These annotations ar
-- Each line represents a polygon zone.
-- The first value (e.g., `0`, `1`) is the unique zone ID.
-- The list `[(x1, y1), (x2, y2), ...]` represents the polygon's vertex coordinates.
-
-This format is easy to integrate into your computer vision models for training purposes.
 
 ## Benefits for Computer Vision Projects
 - **Customizable and Easy to Use**: Resize the canvas, upload images or videos, and switch between light and dark mode to suit your preferences.
@@ -64,13 +54,6 @@ We welcome contributions to improve this tool! If you have suggestions for new f
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Example Data Format
-
-Once you've drawn and saved your polygons, you can download the data in the following format:
-    0: [(50, 60), (150, 60), (150, 200), (50, 200)] 
-    1: [(200, 250), (400, 250), (400, 350), (200, 350)]
-
-
 ## How to Draw Polygons
 
 1. Upload your image or video to the tool. Set the frame dimensions. And set limit for number of zones.
@@ -92,4 +75,4 @@ This sample image demonstrates how you can draw polygons on an image or video fr
 ## Sample utilization
 ![image](https://github.com/user-attachments/assets/cd85acda-4ed5-4be7-b345-ff7e53fc8353)
 
-⚠️ Ensure that the frame dimensions match the dimensions of the frame in which the zones were created when using the zones.
+⚠️ When using the zones data, ensure that the frame dimensions match exactly with the dimensions of the frame in which the zones were created.
